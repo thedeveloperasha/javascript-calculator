@@ -1,8 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-body{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(253, 249, 224);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
 .calc{
     width: 400px;
     height: 600px;
-    background:gray;
-    margin-left:400px ;
+    background:rgb(184, 130, 184);
+   
 
 }
 #screen{
@@ -17,6 +30,9 @@
     height: 45px;
     margin-left: 30px;
     margin-top: 30px;
-    background: bisque;
+    background: teal;
+    font-size: larger;
+    font-weight: 600;
 
 }
+
